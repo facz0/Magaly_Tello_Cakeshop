@@ -103,7 +103,7 @@ header {
 
 .index-text2 {
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
     /* imagen 1*/
@@ -120,7 +120,6 @@ header {
     grid-column: 1/2;
     grid-row: 1/3;
     place-self: center;
-    justify-self: start;
     z-index: 1;
     border: 20px solid #ecd9db;
 }
@@ -154,6 +153,8 @@ header {
 } 
 
 .index-text2_2 img {
+    width: auto;
+    height: auto;
     width: 390px;
     height: 590px;
     grid-column: 1/2;
@@ -392,7 +393,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     padding: 25px 50px;
-    width: 100%;
+    width: 90vw;
     background: rgb(61, 46, 48);
     color: white;
 }
