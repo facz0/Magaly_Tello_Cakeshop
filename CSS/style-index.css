@@ -115,8 +115,9 @@ header {
 } 
 
 .index-text2_1 img {
-    width: 390px;
-    height: 590px;
+    width: 100%;
+    max-width: 390px;
+    max-height: 590px;
     grid-column: 1/2;
     grid-row: 1/3;
     place-self: center;
@@ -136,6 +137,9 @@ header {
     color: #1A1A1A;
     border-radius: 5px;
     font-family: Open Sans, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 202px;
+    max-height: 66px;
 }
 
 .index-text2_1 a:hover {
@@ -153,8 +157,7 @@ header {
 } 
 
 .index-text2_2 img {
-    width: auto;
-    height: auto;
+    width: 100%;
     max-width: 390px;
     max-height: 590px;
     grid-column: 1/2;
@@ -193,8 +196,9 @@ header {
 } 
 
 .index-text2_3 img {
-    width: 390px;
-    height: 590px;
+    width: 100%;
+    max-width: 390px;
+    max-height: 590px;
     grid-column: 1/2;
     grid-row: 1/3;
     place-self: center;
