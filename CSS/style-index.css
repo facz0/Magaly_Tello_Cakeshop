@@ -21,7 +21,6 @@ header {
 }
 
 .logo {
-    
     width: 200px;
     height: 69px;
     margin: 14px 0 14px 0;
@@ -179,6 +178,9 @@ header {
     color: #1A1A1A;
     border-radius: 5px;
     font-family: Open Sans, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 202px;
+    max-height: 66px;
 }
 
 .index-text2_2 a:hover {
@@ -218,6 +220,9 @@ header {
     color: #1A1A1A;
     border-radius: 5px;
     font-family: Open Sans, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 202px;
+    max-height: 66px;
 }
 
 .index-text2_3 a:hover {
@@ -256,8 +261,9 @@ header {
 }
 
 .index-text3 img {
-    width: 350px;
-    height: 380px;
+    width: 100%;
+    max-width: 350px;
+    max-height: 380px;
 }
 
     /*-- Imagen 1 --*/
