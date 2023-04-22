@@ -6,6 +6,7 @@
 
 body {
     margin: 0 5vw 0 5vw;
+    font-size: 16px;
 }
 
 html{
@@ -65,6 +66,8 @@ header {
     margin-top: 70px;
 }
 
+/*--------- Bloque 1 ---------*/
+
 .index-text1 {
     display: grid;
     grid-template-columns: 65% 35%;
@@ -74,11 +77,12 @@ header {
     background: #ecd9db;
     margin: 15px 20px 10px 0px;
     color: #1A1A1A;
+    width: 98%;
 }
 
 .index-text1_1 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 100;
     margin: 55px 35px 0 35px;
     font-family: "Playfair Display";
@@ -86,8 +90,8 @@ header {
 
 .index-text1_1 p {
     text-align: center;
-    font-size: 18px;
-    line-height: 35px;
+    font-size: 1rem;
+    line-height: 3rem;
     padding: 27px;
     font-family: Open Sans, Helvetica, sans-serif;
 }
