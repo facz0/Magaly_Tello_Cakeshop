@@ -237,7 +237,7 @@ header {
     color: #ecd9db ;
 }
 
-/*-- Meet some of my works --*/
+/*-- Conoce algunos de mis trabajos --*/
 
 .index-text3 {
     display: grid;
@@ -246,6 +246,7 @@ header {
     justify-content: center;
     background: #ecd9db;
     margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .index-text3 h1 {
@@ -256,7 +257,7 @@ header {
     place-self: center;
     justify-self: center;
     height: 45px;
-    width: 380px;
+    width: 40%;
     margin-top: 30px;
     font-family: "Playfair Display";
     font-weight: 100;
@@ -422,6 +423,10 @@ footer {
 footer p a {
     text-decoration: none;
     color: white;
+}
+
+footer .social a{
+    margin: 2px;
 }
 
 
