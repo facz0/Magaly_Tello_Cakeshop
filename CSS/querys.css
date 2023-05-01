@@ -2,11 +2,11 @@
 
     /*---------- caja 1  ----------*/
     .index-text1_1 h1 {
-        font-size: 38px;
+        font-size: 1.7rem;
     }
 
     .index-text1_1 p {
-        font-size: 16px;
+        font-size: 0.9rem;
     }
     
     
@@ -25,14 +25,9 @@
     }
 }
 
-@media screen and (max-width: 1262px) {
-    /*---------- caja 1  ----------*/
-    .index-text1_1 h1 {
-        font-size: 32px;
-    }
-
-    .index-text1_1 p {
-        font-size: 14px;
+@media screen and (max-width: 1016px) {
+    .index-text3 h1{
+        font-size: 1.5rem;
     }
 }
 
@@ -53,20 +48,12 @@
     .index-text3 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:0.3fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows:0.3fr 1fr;
     }
 
     .index-text3 h1 {
         grid-column: 1/2;
     }
-
-    .index-text3_div1, .index-text3_div2, .index-text3_div3, .index-text3_div4, .index-text3_div5{
-        grid-column: 1/2;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    
-
 }
 
 
