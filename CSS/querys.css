@@ -67,12 +67,48 @@
 
 
     /*---------- Header ----------*/
-    #nav1 a{
-        display: none;
+
+    /*barra de navegación*/
+    .nav1 {
+        
+        height: 0;
+        padding: 0;
+        position: absolute;
+        top: 90px;
+        transition: 0.6s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        overflow: hidden;
     }
 
+    .nav1.active{
+        height: 28vh;
+    }
+
+    .nav1 a{
+        width: 30%;
+        transition: 0.6s;
+        opacity: 0;
+    }
+
+    .nav1.active a{
+        opacity: 1;
+    }
+
+
+
+    /*logo*/
+    .logo_link{
+        margin-left: 0;
+    }
+
+    /*nueva barra de navegación*/
     .menu-bar{
         display: block;
+        align-self: center;
+        cursor: pointer;
+        margin-right: 12%;
     }
     /*---------- caja 2 ----------*/
     .index-text2 {

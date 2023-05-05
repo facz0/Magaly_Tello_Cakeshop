@@ -6,26 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="CSS/style-index.css">
+    <script src="https://kit.fontawesome.com/6d29a0c53e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/querys.css">
 </head>
 <body>
     <header>
         <a href="index.html" class="logo_link"><img src="images/magalytello-logos(2).jpeg" alt="logo" class="logo"></a>
-        <nav id="nav1">
-            <a href="index.html">Home</a>
-            <a href="About-me.html">About Me</a>
-            <a href="make-your-order.html">Make your order</a>
+        <nav class="nav1">
+            <a class="active" href="index.html">Home</a>
+            <a href="About-me.html">Acerca de mi</a>
+            <a href="make-your-order.html">Pide aquí</a> 
         </nav>
+        <div class="menu-bar">
+            <i class="fa-solid fa-bars" style="color: #d3b3b8;"></i>
+        </div>
     </header>
-
-    <!-- This div is just to give style to the nav bar. Without this div in the box model another box called "position"
-    is created and changes the style of the nav -->
-    <div>.</div>
+    <script src="./script.js"></script>
 
     <main id="aboutme-main">
         <h1>MAGALY TELLO</h1>
-        <h2>A PROFESSIONAL PASTRY CHEF</h2>
-        <p class="aboutme-p1"></p>
-        <img src="images/Maga con uniforme.jpg" alt="Magaly">
+        <h2>PASTELERA PROFESIONAL</h2>
+        <div class="img">
+            <img src="images/Maga con uniforme.jpg" alt="Magaly">
+        </div>
+        
         <p class="aboutme-p2">
             Todo inició el día en que tuve que elegir qué estuidiar. Llego un punto en mi vida, 
             cuando tenía 17 años, dónde sabía que tenía que progresar y valerme por mí misma para ser alguien en la 
