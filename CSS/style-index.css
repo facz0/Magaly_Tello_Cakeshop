@@ -14,6 +14,8 @@ html{
     font-size: 16px;
 }
 
+
+
 /*---------- Encabezado fijo ----------*/
 header {
     top: 0;
@@ -56,7 +58,6 @@ header {
 }
 
 #img_hb {
-    margin: 0;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -170,7 +171,7 @@ header {
 .index-text2_2 img {
     width: 100%;
     max-width: 390px;
-    max-height: 590px;
+    max-height: 506.66px;
     grid-column: 1/2;
     grid-row: 1/3;
     place-self: center;
@@ -212,7 +213,7 @@ header {
 .index-text2_3 img {
     width: 100%;
     max-width: 390px;
-    max-height: 590px;
+    max-height: 506.66px;
     grid-column: 1/2;
     grid-row: 1/3;
     place-self: center;
@@ -223,7 +224,7 @@ header {
 .index-text2_3 a {
     grid-column: 1/2;
     grid-row: 2/3;
-    
+    text-align: center;
     place-self: center;
     text-decoration: none;
     background: rgba(255, 255, 255, 0.603);
@@ -243,7 +244,7 @@ header {
     color: #ecd9db ;
 }
 
-/*-- Conoce algunos de mis trabajos --*/
+/*----- Conoce algunos de mis trabajos ------*/
 
 .index-text3 {
     display: grid;
@@ -385,45 +386,94 @@ footer .social a{
 
 /*---------- MAKE YOUR ODER STYLE ----------*/
 
-.main-makeyourorder {
+.bod-m {
+    display: grid;
     background: rgba(247,235,237,255);
-    margin-top: 85px;
+    margin-top: 16vh;
 }
 
-.dropbtn {
-    background-color: transparent;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+.realcontainer{
+    width: 100%;
+}
+
+.h1{
+    
+    text-align: center;
+    width: 100%;
+    margin: 3% 0 0 0;
+    display: flex;
+}
+
+.h1 h1{
+    background-color: white;
+    color: #e2c7c7;
+    font-family: "Playfair Display";
+    width: 70%;
+    
+}
+
+.img-ul{
+    background-color: white;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 5%;
+}
+
+.img-ul img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    align-self: center;
+    border: 10px rgba(247,235,237,255) solid;
+    max-width: 300px;
+    width: 100%;
+    padding: 0 0 0 0;
+}
+
+.img-ul ul{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    padding: 0 20% 0 5%;
+    font-family: Open Sans, Helvetica, sans-serif;
+    list-style-type: "✨";
+    color: #e2c7c7;
+    margin-bottom: 5%;
+}
+
+.img-ul ul h2{
+    margin-top: 5%;
+    margin-bottom: 9%;
+} 
+
+.img-ul ul li{
+    margin-top: 5%;
+    margin-bottom: 5%; 
+}
+
+svg{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: center;
+    color: #e2c7c7;
     cursor: pointer;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+.a-myo{
+    display: flex;
+    flex-direction: column;
+    margin: 0 35% 0 20%;
+    justify-content: center;
+    text-align: center;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(236, 211, 225);
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 grba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+a{
     text-decoration: none;
-    display: block;
+    color: #e2c7c7;
 }
 
-.dropdown-content a:hover {
-    background-color: rgba(221, 221, 221, 0);
-    color: white;
+a:hover, svg:hover{
+    color: rgb(61, 46, 48);
 }
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e4100;}

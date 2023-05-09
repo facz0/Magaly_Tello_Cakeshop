@@ -192,4 +192,37 @@
         margin-top: 10%;
     }
 
+
+
+
+    /*---------- MAKE YOUR ORDER ----------*/
+    .img-ul{
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .img-ul img{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-top: 10%;
+    }
+
+    .img-ul ul{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding: 0;
+    }
+
+    .a-myo{
+        display: flex;
+        flex-direction: column;
+        margin: 0 29% 10% 29%;
+    }
+
+    .a-myo{
+        text-align: center;
+    }
+        
+
 }
